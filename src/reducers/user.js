@@ -1,4 +1,4 @@
-import  { FETCH_USERS } from './type';
+import  { FETCH_USERS } from '../actions/type';
 
 
 export default function(state = [], action){
