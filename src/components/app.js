@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import USER_LIST from './user_list';
+
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <USER_LIST />
+      </div>
     );
   }
 }
