@@ -23,7 +23,7 @@ componentWillMount(){
   }
 
   render() {
-    return <div>{this.props.users.map(this.renderUser)}</div>;
+    return <div className="user-list">{this.props.users.map(this.renderUser)}</div>;
   }
 }
 
