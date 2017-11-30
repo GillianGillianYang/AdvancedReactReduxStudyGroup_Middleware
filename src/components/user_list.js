@@ -14,7 +14,7 @@ componentWillMount(){
 
   renderUser(user) {
     return (
-      <div className="card card-block">
+      <div className="card card-block" key={user.id}>
         <h4 className="card-title">{user.name}</h4>
         <p className="card-text">Cheese Factory</p>
         <a className="btn btn-primary">Email</a>
